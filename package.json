@@ -1,0 +1,37 @@
+{
+    "name": "protean-shrx",
+    "description": "Rx utility methods for shell-like interaction",
+    "version": "0.1.0",
+    "keywords": ["utility", "shell", "rx"],
+    "main": "./lib/index.js",
+    "dependencies": {
+        "protean":      "0.2.x",
+        "underscore":   "1.x",
+        "del":          "1.x",
+        "globby":       "1.x"
+    },
+    "devDependencies": {
+        "mocha":        "2.x.x",
+        "should":       "4.x.x",
+        "gulp":         "3.x.x",
+        "gulp-ejs":     "0.x.x"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/gulp",
+        "clean": "./node_modules/.bin/gulp clean",
+        "test": "./node_modules/.bin/mocha -R spec test/test-*.js"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jhamlet/protean-shellrx/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jhamlet/protean-shellrx.git"
+    },
+    "bugs": {
+        "url": "http://github.com/jhamlet/protean/issues"
+    }
+}
