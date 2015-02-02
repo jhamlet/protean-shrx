@@ -1,5 +1,5 @@
-Protean-shellrx
-===============
+Protean-shrx
+============
 
 > Rx utility methods for shell-like interaction
 
@@ -12,16 +12,19 @@ Installation
 ------------
 
 ~~~
-% npm install protean-shellrx
+% npm install protean-shrx
 ~~~
 
 Dependencies
 ------------
 
-These are installed when **protean-shellrx** is installed.
+These are installed when **protean-shrx** is installed.
 
 ~~~
-underscore: 1.x.x
+protean:    0.2.x
+underscore: 1.x
+del:        1.x
+globby:     1.x
 ~~~
 
 
@@ -30,9 +33,8 @@ underscore: 1.x.x
 Installed when you run `npm link` in the package directory.
 
 ~~~
-mocha:    1.x.x
-should:   3.x.x
-del:      *
+mocha:    2.x.x
+should:   4.x.x
 gulp:     3.x.x
 gulp-ejs: 0.x.x
 ~~~
